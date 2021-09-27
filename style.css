@@ -1,0 +1,49 @@
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  padding-top: 20px;
+}
+header {
+  text-align: center;
+  width: 100%;
+}
+ul,
+li {
+  list-style: square;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  float: left;
+  right: 100%;
+}
+.html-css {
+  width: 300px;
+  border: 1px solid green;
+}
+.javaScript {
+  border: 1px solid green;
+  width: 300px;
+}
+.reactJs {
+  border: 1px solid green;
+  width: 300px;
+}
+h2 {
+  text-align: center;
+}
+@media (max-width: 900px) {
+  header {
+    text-align: center;
+  }
+  section {
+    display: block;
+    width: 100%;
+  }
+}
